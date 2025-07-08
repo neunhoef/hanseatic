@@ -13,6 +13,9 @@ pub fn is_even(n: i32) -> bool {
     n % 2 == 0
 }
 
+/// Cities module containing Hanseatic League cities
+pub mod cities;
+
 #[cfg(test)]
 mod tests {
     use super::*;
